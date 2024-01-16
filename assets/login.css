@@ -138,6 +138,7 @@ body {
 
 .return {
     margin-top: 20px;
+    /* background: transparent; */
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0,0,0, .2);
@@ -148,6 +149,6 @@ body {
 
 .return a {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--text-white);
 }
