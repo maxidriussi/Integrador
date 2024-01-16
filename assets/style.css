@@ -24,6 +24,10 @@
     list-style-type: none;
     font-family: "poppins", sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 /* Header */
 header {
     width: 100%;
@@ -60,11 +64,10 @@ header {
 
  .navbar-list li:first-child > a {
     color: var(--text-black);
-    font-weight: 800;
+    font-weight: 800; 
  }
 
  .navbar-list li:last-child > a {
-    /* text-decoration: underline; */
     font-weight: 600;
     border: 5px solid var(--hero-bg);
     border-radius: 10px;
@@ -91,9 +94,9 @@ main {
 /* Hero */
 
 #hero {
-    margin: 65px;
+    margin: 20px;
+    scroll-margin-top: 8ex;
     padding: 80px;
-    /* padding-bottom: 50px; */
     width: 1900px;
     max-width: 1900px;
     display: flex;
@@ -161,7 +164,9 @@ main {
 
 #discover {
     /* padding: 0 20px 65px 20px; */
+    scroll-margin-top: 8ex;
     padding-top: 80px;
+    padding-bottom: 80px;
     width: 1900px;
     max-width: 1900px;
     display: flex;
@@ -183,7 +188,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     gap: 20px;
 }
 
@@ -261,7 +266,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px;
+    padding: 80px;
 }
 
 .country {
@@ -302,7 +307,6 @@ main {
     background-color: #EEF5FF;
     width: 250px;
     height: 200px;
-    /* border-radius: 5px; */
     padding: 5px;
     margin-top: 240px;
     gap: 10px;
@@ -374,7 +378,7 @@ main {
 
 #about {
     /* padding: 0 20px 65px 20px; */
-    padding-top: 80px;
+    padding-top: 40px;
     width: 1900px;
     max-width: 1900px;
     padding-top: 150px;
@@ -455,6 +459,7 @@ footer {
 }
 
 #contact {
+    max-width: 1900px;
     width: 100%;
     display: flex;
     /* padding-top: 60px; */
@@ -585,6 +590,8 @@ footer {
     font-size: 16px;
     font-weight: 600; 
 }
+
+
 
 
 
