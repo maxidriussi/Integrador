@@ -465,7 +465,7 @@ main {
     font-weight: 600;
     cursor: pointer;
 }
-
+/* CAMBIOS */
 footer {
     max-width: 1400px;
     height: 100%;
@@ -482,8 +482,9 @@ footer {
     display: flex;
     /* padding-top: 60px; */
 }
-
+/* CAMBIOS */
 .footer-img {
+    max-width: 1400px;
     width: 100%;
     display: flex;
     justify-content: space-between;
