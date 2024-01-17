@@ -1,0 +1,76 @@
+/* TABLET */
+
+@media (max-width: 1200px) {
+    .navbar {
+        width: 100%;
+        justify-content: center;
+        /* gap: 10px; */
+    }
+
+    .navbar-list {
+        gap: 20px;
+        width: 50%;
+    }
+    /* BODY */
+
+    body {
+        width: 100%;
+    }
+    /* HERO */
+
+    #hero {
+        width: 100%;
+        padding-right: 160px;
+    }
+
+    /* DISCOVER */
+
+    #discover {
+        width: 80%;
+        max-width: 1200px;
+        padding-right: 85px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .continent {
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: unset; */
+    }
+    /* PROMOTION */
+
+    #promotion {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .country {
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding-right: 80px;
+    }
+    /* ABOUT */
+
+    .information {
+        justify-content: center;
+        align-items: center;
+        padding-right: 80px;
+        gap: 80px;
+    }
+
+    .regret {
+        padding-right: 80px;
+        gap: 80px;
+    }
+    /* FOOTER */
+
+    .contact-info {
+        justify-content: center;
+        align-items: center;
+        padding-right: 80px;
+    }
+}

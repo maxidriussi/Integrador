@@ -51,6 +51,10 @@ header {
     border-radius: 20px;
 }
 
+.navbar {
+    width: 100%;
+}
+
 .navbar,
  .navbar-list {
     width: 75%;
@@ -439,12 +443,12 @@ main {
 }
 
 .regret {
-    padding: 100px;
+    padding: 100px 80px 100px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-    width: 80%;
+    width: 75%;
 }
 
 .text-regret {
