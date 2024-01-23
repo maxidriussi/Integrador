@@ -104,8 +104,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
-    /* max-width: 1400px;  */
-    /* background-color: #AAD7D9; */
 }
 
 main {
@@ -114,7 +112,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid var(--text-white);
+    /* border: 1px solid var(--text-white); */
 }
 
 /* Hero */
@@ -131,15 +129,16 @@ main {
 }
 
 .hero-card {
-    background-image: url(./maldivas2.jpg);
+    background: no-repeat url(./maldivas2.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
-    width: 850px;
-    height: 400px;
+    width: 90%;
+    height: 100%;
     margin-top: 65px;
     padding: 50px 0;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
     border-radius: 16px;
 }
 
@@ -175,12 +174,14 @@ main {
     background-color: var(--header-bg);
     color: var(--text-black);
     text-align: center;
+    border: 2px solid var(--text-black) ;
 }
 
 .hero-card-search button {
     width: 80px;
     height: 30px;
     border-radius: 8px;
+    border: 1px solid var(--button-bg);
     background-color: #FF9800;
     color: var(--text-black);
     cursor: pointer;
@@ -192,7 +193,7 @@ main {
     scroll-margin-top: 8ex;
     padding-top: 80px;
     padding-bottom: 80px;
-    width: 1400px;
+    width: 100%;
     max-width: 1400px;
     display: flex;
     justify-content: center;
@@ -206,7 +207,7 @@ main {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .discover-text {
@@ -228,7 +229,6 @@ main {
 
 .continent {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -285,7 +285,6 @@ main {
 }
 
 #promotion {
-    padding: 0 20px 65px 20px;
     width: 1400px;
     max-width: 1400px;
     display: flex;
@@ -298,7 +297,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     gap: 50px;
     width: 100%;
 }
@@ -407,6 +406,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -414,12 +414,13 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     width: 100%;
     gap: 50px;
 }
 
 .info {
-    background-color: var(--header-bg);
+    background: var(--hero-bg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,7 +428,7 @@ main {
     width: 250px;
     height: 180px;
     gap: 8px;
-    border: 2px solid var(--footer-bg);
+    border: 2px solid var(--about-bg);
     padding: 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -443,7 +444,7 @@ main {
 }
 
 .regret {
-    padding: 100px 80px 100px 0;
+    padding: 100px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -497,6 +498,8 @@ footer {
     background-attachment: fixed;
     background-size: cover;
     border: 1px solid var(--text-white);
+    border-left: 0px;
+    border-right: 0px;
 }
 
 .img-left{
@@ -527,22 +530,21 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 350px;
-    border: 1px solid var(--text-white);
+    height: 100%;
     gap: 30px;
 }
 
 .contact-card {
-    background-color: var(--header-bg);
+    background-color: var(--hero-bg);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 300px;
     height: 200px;
-    border: 2px solid var(--footer-bg);
+    border: 2px solid var(--about-bg);
     border-radius: 25px;
-    gap: 10px;
+    gap: 5px;
 }
 
 .contact-card h3 {
