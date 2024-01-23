@@ -1,3 +1,4 @@
+
 @media (max-width: 1200px) {
    
     header {
@@ -213,6 +214,7 @@
     #promotion {
         max-width: 992px;
         width: 100%;
+        border: 1px solid red;
     }
 
     .country {
@@ -276,8 +278,10 @@
 
 
     header {
+        position: relative;
         max-width: 576px;
         width: 100%;
+        border: 1px solid red;
     }
 
     .navbar {
@@ -294,6 +298,7 @@
         max-width: 576px;
         width: 100%;
         height: 100%;
+        border: 1px solid red;
     }
 
     .hero-card {
@@ -329,6 +334,7 @@
     #discover {
         max-width: 576px;
         width: 100%;
+        border: 1px solid red;
     }
 
     .discover-text h3 {
@@ -344,17 +350,20 @@
     #about {
         max-width: 576px;
         width: 100%;
+        border: 1px solid red;
     }
 
     .information {
         max-width: 576px;
         width: 100%;
+        border: 1px solir red;
     }
 
     .regret {
         width: 100%;
         justify-content: column;
         gap: 20px;
+        border: 1px soid red;
     }
 
     .text-regret {
@@ -362,6 +371,7 @@
         height: 50%;
         text-align: center;
         gap: 20px;
+        border: 1px solid red;
     }
 
     footer {
@@ -377,15 +387,23 @@
     .footer-img {
         max-width: 576px;
         width: 100%;
+        justify-content: flex-start;
+        border: 1px solid red;
     }
 
     .img-right {
         max-width: 576px;
         width: 100%;
+        border: 1px solid red;
     }
 
     .img-left {
         width: 100%;
+    }
+
+    .img-left img {
+        width: 75px;
+        height: 75px;
     }
 
     .contact-info {
@@ -393,6 +411,7 @@
         width: 100%;
         height: 100%;
         margin: 40px;
+        border: 1px solid red;
     }
 
     .contact-card {
