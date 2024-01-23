@@ -445,6 +445,8 @@ main {
 }
 
 .regret {
+    max-width: 1400px;
+    width: 100%;
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
@@ -484,12 +486,14 @@ footer {
 }
 
 #contact {
+    max-width: 1400px;
     width: 100%;
     display: flex;
     /* padding-top: 60px; */
 }
 /* CAMBIOS */
 .footer-img {
+    max-width: 1400px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -504,6 +508,7 @@ footer {
 }
 
 .img-left{
+    width: 100%;
     padding: 20px 50px 20px 50px;
 }
 
@@ -515,6 +520,7 @@ footer {
 }
 
 .img-right {
+    width: 100%;
     display: flex;
     width: 25%;
     gap: 20px;
