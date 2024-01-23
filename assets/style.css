@@ -113,7 +113,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 1px solid var(--text-white); */
 }
 
 /* Hero */
@@ -122,7 +121,7 @@ main {
     margin: 20px;
     scroll-margin-top: 8ex;
     padding: 80px;
-    width: 1400px;
+    width: 100%;
     max-width: 1400px;
     display: flex;
     justify-content: center;
@@ -199,7 +198,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0 20px 65px 20px; */
 }
 
 .container {
@@ -247,7 +245,6 @@ main {
     text-align: center;
     gap: 10px;
     background-position: center center;
-    /* background-color: var(--about-bg); */
 }
 
 .continent-card p {
@@ -280,13 +277,9 @@ main {
     background-image: url(./africa.jpg);
 }
 
-.divisor {
-    border: 1px solid transparent;
-    width: 600px;
-}
 
 #promotion {
-    width: 1400px;
+    width: 100%;
     max-width: 1400px;
     display: flex;
     justify-content: center;
@@ -401,7 +394,7 @@ main {
 
 #about {
     padding-top: 40px;
-    width: 1400px;
+    width: 100%;
     max-width: 1400px;
     padding-top: 150px;
     display: flex;
@@ -489,7 +482,6 @@ footer {
     max-width: 1400px;
     width: 100%;
     display: flex;
-    /* padding-top: 60px; */
 }
 /* CAMBIOS */
 .footer-img {
