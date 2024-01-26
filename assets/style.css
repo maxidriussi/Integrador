@@ -27,6 +27,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 65px;
 }
 /* Header */
 header {
@@ -54,18 +55,19 @@ header {
 
 .navbar {
     width: 100%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .navbar,
  .navbar-list {
-    width: 75%;
+    width: 70%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
  }
 
  .navbar-list {
-    gap: 16px;
+    gap: 24px;
  }
 
  .navbar-list a {
@@ -79,9 +81,9 @@ header {
 
  .navbar-list li:last-child > a {
     font-weight: 600;
-    border: 5px solid var(--hero-bg);
-    border-radius: 10px;
-    background-color: var(--hero-bg);
+    /* border: 5px solid var(--hero-bg);
+    border-radius: 16px;
+    background-color: var(--hero-bg); */
     color: var(--text-black);
  }
 
@@ -631,10 +633,3 @@ footer {
     font-size: 16px;
     font-weight: 600; 
 }
-
-
-
-
-
-
-
