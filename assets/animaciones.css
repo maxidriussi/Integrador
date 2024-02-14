@@ -1,41 +1,150 @@
 .overlay {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px rgba(31,38,135,0.37);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    display: none;
- }
+  position: absolute;
+  top: 70px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: none;
+}
 
- #toggle-menu:checked ~ .overlay {
-    display: block;
- }
+#toggle-menu:checked ~ .overlay {
+  display: block;
+}
 
- .navbar-list li {
-    position: relative;
-    padding: 0;
- }
+.navbar-list li {
+  position: relative;
+  padding: 0;
+}
 
- .navbar-list li a::after {
-    content: "";
-    height: 2px;
-    width: 100%;
-    background: rgb(125,124,124);
-    background: radial-gradient(circle, rgba(125,124,124,1) 0%, rgba(25,23,23,1) 70%);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.40s ease;
- }
+.navbar-list li a::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: rgb(27, 22, 22);
+  /* background: rgb(125,124,124);
+    background: radial-gradient(circle, rgba(125,124,124,1) 0%, rgba(25,23,23,1) 70%); */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease;
+}
 
- .navbar-list li a:hover::after {
-    transform-origin: bottom left;
-    transform: scaleX(1);
- }
+.navbar-list li a:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.hero-card-search button,
+.info-bot button {
+  transition: all 0.2s ease-out;
+}
+
+.hero-card-search button:hover,
+.info-bot button:hover {
+  background-color: rgb(192, 22, 62);
+  color: white;
+  transition: all 0.2s ease-in;
+}
+
+.but-regret,
+.info {
+  transition: all 0.3s linear;
+}
+
+.but-regret:hover,
+.info:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+}
+
+.img-right img {
+  transition: all 0.3s linear;
+}
+
+.img-right img:hover {
+  transform: scale(1.4);
+  transition: all 0.3s linear;
+}
+
+@keyframes rotate-scale-down {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(0.5) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+
+.logo:hover {
+  animation: rotate-scale-down 0.6s linear both;
+}
+
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 60px 0 rgb(0, 0, 0);
+  }
+}
+
+.continent-card:hover,
+.country-card:hover {
+  animation: shadow-drop-center 0.6s linear both;
+}
+
+.continent-card button {
+  transition: all 0.2s ease-out;
+}
+
+.continent-card button:hover {
+  background-color: var(--button-bg);
+  color: black;
+  border: 2px double black;
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 0.6em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+.hero-card-title h1:hover {
+  animation: tracking-in-contract 2s linear both;
+}
+
+@keyframes rotate-scale-up {
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    transform: scale(1) rotateZ(180deg);
+  }
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+
+.img-left img:hover {
+  animation: rotate-scale-up 0.8s linear both;
+}
